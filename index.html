@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Soreuso Lab Studio Tool</title><style>
+:root{--bg:#fbfaf7;--fg:#1d1d1b;--muted:#5d5a52;--line:#e3dfd5;--accent:#3f8a3a;--card:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#161714;--fg:#ecebe6;--muted:#a9a69c;--line:#33342f;--accent:#7cc274;--card:#1e1f1b}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.7 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:720px;margin:0 auto;padding:40px 16px 24px}
+h1{font-size:1.7rem;line-height:1.3;margin:0 0 .3em}h2{font-size:1.1rem;margin:2em 0 .4em}
+.sub{color:var(--muted);margin:0 0 1.5em}a{color:var(--accent);overflow-wrap:anywhere}
+nav{display:flex;gap:18px;flex-wrap:wrap;padding:14px 16px;max-width:720px;margin:0 auto;border-bottom:1px solid var(--line)}
+nav a{text-decoration:none;font-weight:600}nav a[aria-current]{color:var(--fg)}
+ul{padding-left:1.3em}li{margin:.25em 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin:1.2em 0}
+footer{max-width:720px;margin:0 auto;padding:20px 16px 40px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+</style></head><body>
+<nav><a href="./" aria-current="page">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
+<main>
+<h1>Soreuso Lab Studio Tool</h1>
+<p class="sub">A private, self-hosted production tool for one YouTube channel</p>
+<p>Soreuso Lab Studio Tool is a private, self-hosted production tool for the YouTube channel “Soreuso Nanoda Kenkyujo” (<a href="https://www.youtube.com/@soreuso-nanoda">youtube.com/@soreuso-nanoda</a>), a Japanese educational channel that fact-checks common myths with cited sources.</p>
+<p>The tool is used only by the channel owner, on the owner's own computer. It is not offered to other users.</p>
+<h2>What the tool does (uses YouTube API Services)</h2>
+<ul>
+<li>Uploads videos that the channel owner has reviewed and approved, with title, description, tags, thumbnail and scheduled publish time (YouTube Data API).</li>
+<li>Reads performance numbers of the channel's own videos (views, watch time, likes, comments, subscribers gained) to plan better educational videos (YouTube Analytics API, YouTube Reporting API).</li>
+</ul>
+<div class="card">Every upload requires a manual approval by the channel owner, who checks the video, the description and the list of sources.</div>
+<p><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a></p>
+</main>
+<footer>This tool uses YouTube API Services. YouTube is a trademark of Google LLC.<br>
+<a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> · <a href="https://policies.google.com/privacy">Google Privacy Policy</a><br>
+Contact: <a href="mailto:soreuso.lab@gmail.com">soreuso.lab@gmail.com</a></footer>
+</body></html>
